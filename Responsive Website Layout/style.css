@@ -1,0 +1,190 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Html & Body */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Page Content */
+.page-content {
+    width: 100%;
+    height: 100%;
+}
+
+/* Navbar */
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+
+/* Navbar Logo */
+.logo h2 {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+/* Navbar Links */
+.nav-links ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 4vw;
+    list-style: none;
+}
+.nav-links a {
+    font-size: 1vw;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+/* Navbar login btn */
+.login-btn  button{
+    font-size: 1vw;
+    font-weight: 700;
+    padding: 0.7vw 1vw;
+    background-color: #fe7162;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.login-btn button:hover {
+    background-color: #ec2711b4;
+}
+
+/* Navbar Menu icon */
+.nav-menu-icon {
+    font-weight: 800;
+    display: none;
+}
+
+/* Main */
+main {
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+/* Main Content */
+.main-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* Left Content */
+.left-content {
+    width: 55%;
+    height: 100%;
+    padding: 4vw 4vw;
+}
+.left-content h1 {
+    font-size: 3.7vw;
+    line-height: 4.4vw;
+}
+.left-content span {
+    color: #fe7162;
+}
+.left-content p {
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 1.5vw;
+    margin-bottom: 3vw;
+}
+.left-content button {
+    font-size: 1.2vw;
+    font-weight: 700;
+    padding: 1.1vw 2.1vw;
+    background-color: #fe7162;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.left-content button:hover {
+    background-color: #ec2711b4;
+}
+
+/* Right Content */
+.right-content {
+    width: 45%;
+    height: 100%;
+}
+.right-content img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+/* Navbar */
+@media only screen and (max-width: 600px) {
+    nav {
+        height: 60px;
+        padding: 0 6vw;
+    }
+    .logo h2 {
+        font-size: 5.1vw;
+    }
+    .nav-links a, .login-btn button {
+        display: none;
+    }
+    .nav-menu-icon {
+        display: block;
+        font-size: 4.5vw;
+    }
+    .main-content {
+        height: calc(100% - 60px);
+        flex-direction: column;
+        background-color: aqua;
+    }
+    .left-content {
+        width: 100%;
+        height: 45%;
+        background-color: red;
+    }
+    .left-content h1 {
+        font-size: 9vw;
+        line-height: 9vw;
+        padding: 0 2vw;
+    }
+    .left-content p {
+        font-size: ;
+    }
+    .right-content {
+        width: 100%;
+        height: 55%;
+        background-color: blue;
+    }
+    .right-content img {
+        width: 100%;
+        height: 100%;
+    }
+}

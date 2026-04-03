@@ -1,0 +1,46 @@
+/* breakpoint */
+/* 991 */
+/* 767 */
+/* 479 */
+
+/* Media Queries */
+@media only screen and (max-width: 991px) {
+    /* Navbar */
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-links {
+        display: none;
+    }
+
+    /* Example section */
+    .example-area {
+        gap: 20px;
+    }
+    .example-card1 {
+        width: calc(50% - 20px);
+        height: 250px;
+        max-width: none;
+    }
+    .example-card2 {
+        width: calc(50% - 20px);
+        height: 250px;
+        max-width: none;
+    }
+    .example-card3 {
+        width: calc(50% - 20px);
+        height: 250px;
+        max-width: none;
+    }
+    .example-card4 {
+        width: calc(50% - 20px);
+        height: 250px;
+        max-width: none;
+    }
+
+    /* Cto section */
+    .cta-section {
+        padding-block: 80px;
+    }
+}
